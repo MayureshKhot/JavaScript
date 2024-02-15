@@ -1,0 +1,64 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+.guessField {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
+}
+
+.guessSubmit {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #00ff00;
+    color: #000;
+    border: none;
+    cursor: pointer;
+}
+
+.resultParas {
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+#newGame {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
