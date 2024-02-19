@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1>Invoice Generator By Mayuresh</h1>
+            <div class="row">
+                <div class="col">
+                    <h2>Personal Info</h2>
+                    <div class="input-group">
+                        <input type="text" id="invoice-number" placeholder="Invoice Number">
+
+                        <input type="text" id="invoice-to" placeholder="Invoice to">
+
+                        <input type="text" id="mobile" placeholder="Mobile">
+                    </div>
+                </div>
+                <div class="col border-left">
+                    <h2>Items</h2>
+                    <div class="input-group">
+                        <input type="number" min="0" id="item-mobile" placeholder="Mobile">
+                   
+                        <input type="number" min="0" id="item-pc" placeholder="PC">
+                   
+                        <input type="number" min="0" id="item-computer" placeholder="Computer">
+                    
+                        <input type="number" min="0" id="item-laptop" placeholder="Laptop">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card2">
+            <div class="col">
+                <h2>Invoice</h2>
+                <div class="show-invoice">
+                    <h3>Invoice No.: <span id="show-no"></span></h3>
+                    <h3>Invoice to: <span id="show-name"></span></h3>
+                    <h3>Mobile: <span id="show-mobile"></span></h3>
+
+                    <br>
+
+                    <table>
+                        <tr>
+                            <th>Item</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Amount</th>
+                        </tr>
+
+                        <tr>
+                            <td>Mobile</td>
+                            <td><span id="mob-price" value="10000">10,000</span></td>
+                            <td><span id="mob-quant"></span></td>
+                            <td><span id="mob-amount"></span></td>
+                        </tr>
+                        <tr>
+                            <td>PC</td>
+                            <td><span id="pc-price" value="20000"></span>20,000</td>
+                            <td><span id="pc-quant"></span></td>
+                            <td><span id="pc-amount"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Computer</td>
+                            <td><span id="com-price" value="30000"></span>30,000</td>
+                            <td><span id="com-quant"></span></td>
+                            <td><span id="com-amount"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Laptop</td>
+                            <td><span id="lap-price" value="40000"></span>40,000</td>
+                            <td><span id="lap-quant"></span></td>
+                            <td><span id="lap-amount"></span></td>
+                        </tr>
+                    </table><br>
+                    <h3 id="final">Total: <span id="final-total"></span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
